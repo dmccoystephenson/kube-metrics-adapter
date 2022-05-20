@@ -1,4 +1,4 @@
-namespace: kube-system
+namespace: ode
 
 replicas: 1
 
@@ -61,7 +61,7 @@ log:
   skipLogHeaders:
 
 prometheus:
-  server: http://prometheus.kube-system.svc.cluster.local
+  server: http://prometheus-server.ode.svc.cluster.local
   metricsAddress:
 
 requestHeader:
